@@ -1,0 +1,15 @@
+
+
+.logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.logo .wa {
+    width: 64px;
+    height: 64px;
+    fill: #25d366;
+    cursor: pointer;
+ }  
