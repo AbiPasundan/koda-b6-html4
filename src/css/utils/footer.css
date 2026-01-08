@@ -1,0 +1,124 @@
+footer {
+  background: #659096;
+  color: whitesmoke;
+  padding: 48px 20px;
+}
+
+.top {
+  margin-bottom: 28px;
+}
+
+.top .brand {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.top .brand h3 {
+  margin-bottom: 8px;
+}
+
+.top .brand p {
+  margin: 0 0 10px 0;
+  line-height: 1.45;
+  color: #cfe6ff;
+  font-size: 14px;
+}
+
+.top .brand span {
+  display: inline-block;
+  color: #9fb8d6;
+  font-size: 13px;
+}
+
+.top .links {
+  display: inline-block;
+  vertical-align: top;
+  width: 58%;
+  box-sizing: border-box;
+}
+
+.top .links > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  box-sizing: border-box;
+  margin-right: 2%;
+}
+
+.top .links > .services {
+  margin-right: 0;
+}
+
+.top .links h4 {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+}
+
+.top .links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top .links li {
+  margin: 6px 0;
+  color: #c9deef;
+  font-size: 14px;
+}
+
+.midle {
+  /* overflow: hidden; */
+  margin: 30px 0 0 0;
+}
+
+.midle .contact {
+  margin-left: 15px;
+  text-align: left;
+  /* float: left; */
+  display: inline;
+  width: 50%;
+}
+
+.midle .contact span {
+  margin-inline: 20px;
+  color: #d7ebff;
+}
+
+.midle .social {
+  margin-right: 100px;
+  /* margin-left: 350px; */
+  text-align: right;
+  float: right;
+  display: inline;
+  /* width: 30%; */
+}
+
+.midle .social span {
+  display: inline-block;
+  margin-inline: 10px;
+  color: #cfe6ff;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  margin: 18px 0;
+}
+
+.bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #9fb8d6;
+}
+
+a {
+  color: #bfe0ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
