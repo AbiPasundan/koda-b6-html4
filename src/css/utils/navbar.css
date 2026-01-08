@@ -1,0 +1,46 @@
+header nav {
+  display: inline-block;
+  width: 100%;
+  background-color: #cee2e3;
+  position: relative;
+}
+
+header nav .nav-brand {
+  display: inline-block;
+  margin-inline: 50px;
+}
+header nav .nav-list {
+  margin-inline: 50px;
+  display: inline-block;
+  /* background-color: ; */
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+header nav .nav-list ul li{
+  display: inline-block;
+  margin-left: 30px;
+
+}
+
+header nav .nav-list > ul{
+  display: inline-block;
+  text-align: right;
+  margin-left: 100px;
+}
+
+header nav input {
+  padding: 5px 10px; 
+  border: 2.5px solid #ccc; 
+  border-top: 0 solid #ccc; 
+  border-left: 0 solid #ccc; 
+  border-right: 0 solid #ccc; 
+  box-sizing: border-box;
+  background: transparent;
+  overflow-x: visible;
+}
+
+header nav svg {
+  padding: 11px 0 0 0; 
+}

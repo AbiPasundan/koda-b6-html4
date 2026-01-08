@@ -6,39 +6,44 @@
     <title>Landing Page</title>
 
     <link rel="stylesheet" href="./src/css/utils/footer.css" />
-    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/utils/navbar.css" />
+    <link rel="stylesheet" href="./src/css/logo.css" />
     <link rel="stylesheet" href="./src/css/reset/reset.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
   </head>
   <body>
     <header>
       <nav>
-        <div>
+        <div class="nav-brand">
           <h2>Influenca</h2>
         </div>
-        <div>
+        <div class="nav-list">
           <ul>
             <li>Home</li>
             <li>About Us</li>
             <li>
-              <!-- <select name="pets" id="pet-select">
-                <option value="">Services</option>
-                <option value="dog">Services</option>
-                <option value="cat">Influencer</option>
-                <option value="hamster">Pricing</option>
-                <option value="parrot">Partner</option>
+              <!-- <label for="cars">Choose a car:</label> -->
+              <!-- <select name="cars" id="cars">
+                <option value="https://www.w3schools.com/">Services</option>
+                <option value="./pricing.html">influence</option>
+                <option value="./pricing.html">Pricing</option>
+                <option value="./pricing.html">Partner</option>
               </select> -->
-              <details>
-                <summary>Services</summary>
-                <ul>
-                  <li>Services</li>
-                  <li>Influencer</li>
-                  <li><a href="./pricing.html">Pricing</a></li>
-                  <li>Partner</li>
-                </ul>
-              </details>
+
+              <div class="w3-dropdown-hover w3-transparent">
+                <button class="w3-button">Services</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href="#" class="w3-bar-item w3-button">Services</a>
+                  <a href="#" class="w3-bar-item w3-button">influence</a>
+                  <a href="./pricing.html" class="w3-bar-item w3-button"
+                    >Pricing</a
+                  >
+                  <a href="#" class="w3-bar-item w3-button">Partner</a>
+                </div>
+              </div>
             </li>
             <li>
-              <details>
+              <!-- <details>
                 <summary>Pages</summary>
                 <ul>
                   <li>Page</li>
@@ -47,7 +52,20 @@
                   <li>Single Blog</li>
                   <li><a href="./404.html">404</a></li>
                 </ul>
-              </details>
+              </details> -->
+
+              <div class="w3-dropdown-hover w3-transparent">
+                <button class="w3-button">Pages</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href="#" class="w3-bar-item w3-button">page</a>
+                  <a href="#" class="w3-bar-item w3-button">FAQs</a>
+                  <a href="./pricing.html" class="w3-bar-item w3-button"
+                    >Blog</a
+                  >
+                  <a href="#" class="w3-bar-item w3-button">Single Blog</a>
+                  <a href="./404.html" class="w3-bar-item w3-button">404</a>
+                </div>
+              </div>
             </li>
             <li>
               <a href="./index.html">Contact Us</a>
@@ -59,6 +77,18 @@
                 id="search"
                 placeholder="type and hit enter"
               />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                />
+              </svg>
             </li>
           </ul>
         </div>
@@ -81,19 +111,19 @@
 
     <div class="logo">
       <a href="https://wa.me/6287753518802" target="_blank">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="64"
-        height="64"
-        fill="currentColor"
-        class="bi bi-whatsapp"
-        viewBox="0 0 16 16"
-        class="wa"
-      >
-        <path
-          d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
-        />
-      </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="64"
+          height="64"
+          fill="currentColor"
+          class="bi bi-whatsapp"
+          viewBox="0 0 16 16"
+          class="wa"
+        >
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+          />
+        </svg>
       </a>
     </div>
 
